@@ -6,7 +6,7 @@ Description: Implements a Widget to show the Wordpress scheduled posts in the Da
 Text Domain: scheduled-posts-dashboard-widget
 Domain Path: languages
 Author: Frank Staude
-Version: 0.1
+Version: 0.2
 Author URI: http://www.staude.net/
 Compatibility: WordPress 4.0
 License: GPLv2
