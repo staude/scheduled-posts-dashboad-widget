@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: scheduled-posts-dashboard-widget v0.1\n"
+"Project-Id-Version: Scheduled Posts Dashboard Widget v0.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2014-09-10 19:20:09+0000\n"
+"PO-Revision-Date: 2014-09-15 20:35:38+0000\n"
 "Last-Translator: admin <frank@staude.net>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -20,76 +20,76 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Textdomain-Support: yes"
 
-#: class-scheduled-posts-dashboard-widget.php:50
-#@ scheduled_posts_dashboard_widget
+#: class-scheduled-posts-dashboard-widget.php:52
+#@ scheduled-posts-dashboard-widget
 msgid "Scheduled Posts"
 msgstr ""
 
-#: class-scheduled-posts-dashboard-widget.php:70
+#: class-scheduled-posts-dashboard-widget.php:72
 #, php-format
-#@ scheduled_posts_dashboard_widget
+#@ scheduled-posts-dashboard-widget
 msgid "%s Scheduled posts"
 msgstr ""
 
-#: class-scheduled-posts-dashboard-widget.php:120
-#@ scheduled_posts_dashboard_widget
+#: class-scheduled-posts-dashboard-widget.php:118
+#@ scheduled-posts-dashboard-widget
 msgid "Title"
 msgstr ""
 
-#: class-scheduled-posts-dashboard-widget.php:121
-#@ scheduled_posts_dashboard_widget
+#: class-scheduled-posts-dashboard-widget.php:119
+#@ scheduled-posts-dashboard-widget
 msgid "Date"
 msgstr ""
 
-#: class-scheduled-posts-dashboard-widget.php:131
+#: class-scheduled-posts-dashboard-widget.php:129
 #, php-format
-#@ scheduled_posts_dashboard_widget
+#@ scheduled-posts-dashboard-widget
 msgid "Edit \"%s\""
 msgstr ""
 
-#: class-scheduled-posts-dashboard-widget.php:153
-#@ scheduled_posts_dashboard_widget
+#: class-scheduled-posts-dashboard-widget.php:151
+#@ scheduled-posts-dashboard-widget
 msgid "View all"
 msgstr ""
 
-#: class-scheduled-posts-dashboard-widget.php:156
-#@ scheduled_posts_dashboard_widget
+#: class-scheduled-posts-dashboard-widget.php:154
+#@ scheduled-posts-dashboard-widget
 msgid "There are no scheduled posts at the moment"
 msgstr ""
 
 #. translators: plugin header field 'Name'
 #: scheduled-posts-dashboard-widget.php:0
-#@ scheduled_posts_dashboard_widget
-msgid "scheduled-posts-dashboard-widget"
+#@ scheduled-posts-dashboard-widget
+msgid "Scheduled Posts Dashboard Widget"
 msgstr ""
 
 #. translators: plugin header field 'PluginURI'
 #: scheduled-posts-dashboard-widget.php:0
-#@ scheduled_posts_dashboard_widget
+#@ scheduled-posts-dashboard-widget
 msgid "http://staude.net/wordpress/plugins/ScheduledPostsDashboardWidget"
 msgstr ""
 
 #. translators: plugin header field 'Description'
 #: scheduled-posts-dashboard-widget.php:0
-#@ scheduled_posts_dashboard_widget
+#@ scheduled-posts-dashboard-widget
 msgid "Implements a Widget to show the Wordpress scheduled posts in the Dashboard"
 msgstr ""
 
 #. translators: plugin header field 'Author'
 #: scheduled-posts-dashboard-widget.php:0
-#@ scheduled_posts_dashboard_widget
+#@ scheduled-posts-dashboard-widget
 msgid "Frank Staude"
 msgstr ""
 
 #. translators: plugin header field 'AuthorURI'
 #: scheduled-posts-dashboard-widget.php:0
-#@ scheduled_posts_dashboard_widget
+#@ scheduled-posts-dashboard-widget
 msgid "http://www.staude.net/"
 msgstr ""
 
 #. translators: plugin header field 'Version'
 #: scheduled-posts-dashboard-widget.php:0
-#@ scheduled_posts_dashboard_widget
-msgid "0.1"
+#@ scheduled-posts-dashboard-widget
+msgid "0.2"
 msgstr ""
 

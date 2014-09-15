@@ -36,7 +36,7 @@ class scheduled_posts_dashboard_widget {
      * 
      */
     static public function load_translations() {
-        load_plugin_textdomain( 'scheduled_posts_dashboard_widget', false, dirname( plugin_basename( __FILE__ )) . '/languages/'  ); 
+        load_plugin_textdomain( 'scheduled-posts-dashboard-widget', false, dirname( plugin_basename( __FILE__ )) . '/languages/'  );
     }
     
     /**
@@ -46,10 +46,10 @@ class scheduled_posts_dashboard_widget {
         wp_enqueue_script( 'tablesorter', plugin_dir_url( __FILE__ ) . 'js/jquery.tablesorter.min.js', array( 'jquery' ) );
         wp_enqueue_script( 'tablesorterpager', plugin_dir_url( __FILE__ ) . 'js/jquery.tablesorter.pager.js', array( 'tablesorter' ) );
         wp_enqueue_style( 'tablesorter', plugin_dir_url( __FILE__) . 'css/jquery.tablesorter.pager.css' );
-        wp_enqueue_style( 'tablesorter-icons', plugin_dir_url( __FILE__) . 'css/scheduled-posts.css' );
+        wp_enqueue_style( 'scheduled-posts-tablesorter', plugin_dir_url( __FILE__) . 'css/scheduled-posts.css' );
 
         wp_add_dashboard_widget( 'scheduled_posts_dashboard_widget',
-                                 apply_filters ( 'scheduled_posts_dashboard_widget_title', __( 'Scheduled Posts', 'scheduled_posts_dashboard_widget' ) ),
+                                 apply_filters ( 'scheduled_posts_dashboard_widget_title', __( 'Scheduled Posts', 'scheduled-posts-dashboard-widget' ) ),
                                  array( 'scheduled_posts_dashboard_widget',
                                         'scheduled_posts_widget' )
                                );
@@ -69,7 +69,7 @@ class scheduled_posts_dashboard_widget {
          ) );
 
         echo '<li class="page-count scheduledposts">';
-        echo '<a  href="edit.php?post_status=future">' . sprintf(__('%s Scheduled posts', 'scheduled_posts_dashboard_widget'), $query->post_count ) . '</a>';
+        echo '<a  href="edit.php?post_status=future">' . sprintf(__('%s Scheduled posts', 'scheduled-posts-dashboard-widget'), $query->post_count ) . '</a>';
         echo '</li>';
     }
     
@@ -115,8 +115,8 @@ class scheduled_posts_dashboard_widget {
 </script>
 <table class="wp-list-table widefat fixed tablesorter" colspan="0" id="dashboard_scheduled_posts"><thead>
         <tr>
-            <th id="title" class="manage-column column-title sortable desc" style="" scope="col"><?php _e('Title', 'scheduled_posts_dashboard_widget'); ?></th>
-            <th id="date" class="manage-column column-title sortable desc" style="" scope="col"><?php _e('Date', 'scheduled_posts_dashboard_widget'); ?></th>
+            <th id="title" class="manage-column column-title sortable desc" style="" scope="col"><?php _e('Title', 'scheduled-posts-dashboard-widget'); ?></th>
+            <th id="date" class="manage-column column-title sortable desc" style="" scope="col"><?php _e('Date', 'scheduled-posts-dashboard-widget'); ?></th>
         </tr>
        
     </thead><tbody>
@@ -126,7 +126,7 @@ class scheduled_posts_dashboard_widget {
                 $title = _draft_or_post_title( $post->ID );
                 $time = get_the_time( get_option( 'date_format' ), $post );
                 $sorttime = get_the_time( 'Ymd', $post );
-    echo "<tr><td><a title='" . sprintf( __( 'Edit "%s"', 'scheduled_posts_dashboard_widget' ), esc_attr( $title ) ) . "' href='" . $url . "'>{$title}</a></td><td><div style=\"display: none\">{$sorttime}</div>$time</td></tr>";
+    echo "<tr><td><a title='" . sprintf( __( 'Edit "%s"', 'scheduled-posts-dashboard-widget' ), esc_attr( $title ) ) . "' href='" . $url . "'>{$title}</a></td><td><div style=\"display: none\">{$sorttime}</div>$time</td></tr>";
                 }
 ?>
     </tbody>
@@ -148,10 +148,10 @@ class scheduled_posts_dashboard_widget {
 	</form>
 </div>
 
-	<p class="textright"><a href="edit.php?post_status=future" class="button"><?php _e( 'View all', 'scheduled_posts_dashboard_widget' ); ?></a></p>
+	<p class="textright"><a href="edit.php?post_status=future" class="button"><?php _e( 'View all', 'scheduled-posts-dashboard-widget' ); ?></a></p>
 <?php
 		} else {
-			_e( 'There are no scheduled posts at the moment', 'scheduled_posts_dashboard_widget' );
+			_e( 'There are no scheduled posts at the moment', 'scheduled-posts-dashboard-widget' );
 		}
 	}
     
