@@ -25,11 +25,13 @@ class scheduled_posts_dashboard_widget {
     function __construct() {
         add_action( 'wp_dashboard_setup', array( 'scheduled_posts_dashboard_widget', 'registerWidget' ) );
         add_action( 'plugins_loaded',     array( 'scheduled_posts_dashboard_widget', 'load_translations' ) );
-        // WP > 3.8   if (wp_version_check($extra_stats)) {
+
+        if ( version_compare( get_bloginfo( 'version' ), '3.8') >= 0 ) {
+            // Dashboard at the glance, since WordPress 3.8
             add_action( 'dashboard_glance_items', array( 'scheduled_posts_dashboard_widget', 'dashboard_glance_items' ) );
-        //}
+        }
     }
-    
+
     /**
      * 
      */
