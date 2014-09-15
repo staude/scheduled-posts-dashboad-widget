@@ -1,0 +1,12 @@
+div .scheduledpost {
+    padding-top: 5px;
+}
+
+input[type='text'].scheduledpost {
+    width: 80px;
+}
+
+select.scheduledpost {
+    margin-top: -5px;
+    padding-top: 3px;
+}

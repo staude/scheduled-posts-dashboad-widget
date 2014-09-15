@@ -1,0 +1,95 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: scheduled-posts-dashboard-widget v0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-09-10 19:18:26+0000\n"
+"Last-Translator: admin <frank@staude.net>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: class-scheduled-posts-dashboard-widget.php:50
+#@ scheduled_posts_dashboard_widget
+msgid "Scheduled Posts"
+msgstr "Geplante Beiträge"
+
+#: class-scheduled-posts-dashboard-widget.php:70
+#, php-format
+#@ scheduled_posts_dashboard_widget
+msgid "%s Scheduled posts"
+msgstr "%s Geplante Beiträge"
+
+#: class-scheduled-posts-dashboard-widget.php:120
+#@ scheduled_posts_dashboard_widget
+msgid "Title"
+msgstr "Titel"
+
+#: class-scheduled-posts-dashboard-widget.php:121
+#@ scheduled_posts_dashboard_widget
+msgid "Date"
+msgstr "Datum"
+
+#: class-scheduled-posts-dashboard-widget.php:131
+#, php-format
+#@ scheduled_posts_dashboard_widget
+msgid "Edit \"%s\""
+msgstr "Beitrag \"%s\" bearbeiten"
+
+#: class-scheduled-posts-dashboard-widget.php:153
+#@ scheduled_posts_dashboard_widget
+msgid "View all"
+msgstr "Alle geplanten Beiträge anzeigen."
+
+#: class-scheduled-posts-dashboard-widget.php:156
+#@ scheduled_posts_dashboard_widget
+msgid "There are no scheduled posts at the moment"
+msgstr "Es sind keine geplanten Beiträge vorhanden."
+
+#. translators: plugin header field 'Name'
+#: scheduled-posts-dashboard-widget.php:0
+#@ scheduled_posts_dashboard_widget
+msgid "scheduled-posts-dashboard-widget"
+msgstr ""
+
+#. translators: plugin header field 'PluginURI'
+#: scheduled-posts-dashboard-widget.php:0
+#@ scheduled_posts_dashboard_widget
+msgid "http://staude.net/wordpress/plugins/ScheduledPostsDashboardWidget"
+msgstr ""
+
+#. translators: plugin header field 'Description'
+#: scheduled-posts-dashboard-widget.php:0
+#@ scheduled_posts_dashboard_widget
+msgid "Implements a Widget to show the Wordpress scheduled posts in the Dashboard"
+msgstr "Zeigt im Dashboard ein Widget an, das die geplanten Beiträge auflistet."
+
+#. translators: plugin header field 'Author'
+#: scheduled-posts-dashboard-widget.php:0
+#@ scheduled_posts_dashboard_widget
+msgid "Frank Staude"
+msgstr ""
+
+#. translators: plugin header field 'AuthorURI'
+#: scheduled-posts-dashboard-widget.php:0
+#@ scheduled_posts_dashboard_widget
+msgid "http://www.staude.net/"
+msgstr ""
+
+#. translators: plugin header field 'Version'
+#: scheduled-posts-dashboard-widget.php:0
+#@ scheduled_posts_dashboard_widget
+msgid "0.1"
+msgstr ""
+
